@@ -20,7 +20,7 @@ const Hero = () => {
 		 yPercent: 100,
 		 duration: 1.8,
 		 ease: 'expo.out',
-		 stagger: 0.05
+		 stagger: 0.1
 		});
 
 		gsap.from(paragraphSplit.lines, {
@@ -83,7 +83,7 @@ const Hero = () => {
 		 />
 
 		 <div className="body">
-			<div className="content">
+			<div className="content flex justify-around">
 			 <div className="space-y-5 hidden md:block">
 				<p>Cool. Crisp. Classic.</p>
 				<p className="subtitle">
@@ -107,7 +107,7 @@ const Hero = () => {
 		 muted
 		 playsInline
 		 preload="auto"
-		 src="/videos/mwhiskey.mp4"
+		 src="/videos/output.mp4"
 		/>
 	 </div>
 	</>
